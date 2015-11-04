@@ -23,13 +23,6 @@
         <dex dex="D:\Github\XYZReader\XYZReader\build\intermediates\pre-dexed\debug\classes-ccd4a62ec6f8d02dc5bbc580e37a328f9f75610a.jar" />
     </item>
     <item
-        jar="C:\Users\Guanqing\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\1.1.0\d51280dbb4e8539f6c3f369d516edc26f9d89d31\okhttp-1.1.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
-        <dex dex="D:\Github\XYZReader\XYZReader\build\intermediates\pre-dexed\debug\okhttp-1.1.0-24fcf5bb87b1c4afb214b3732e0582c2cca755cf.jar" />
-    </item>
-    <item
         jar="D:\Github\XYZReader\XYZReader\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.0\classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -65,13 +58,6 @@
         <dex dex="D:\Github\XYZReader\XYZReader\build\intermediates\pre-dexed\debug\volley-e04213894cc71ffa57e3a244182cbd51166ff60f.jar" />
     </item>
     <item
-        jar="C:\Users\Guanqing\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\1.1.0\d51280dbb4e8539f6c3f369d516edc26f9d89d31\okhttp-1.1.0.jar"
-        jumboMode="false"
-        revision="23.0.0"
-        sha1="d51280dbb4e8539f6c3f369d516edc26f9d89d31">
-        <dex dex="D:\Github\XYZReader\XYZReader\build\intermediates\pre-dexed\debug\okhttp-1.1.0-24fcf5bb87b1c4afb214b3732e0582c2cca755cf.jar" />
-    </item>
-    <item
         jar="D:\Github\XYZReader\XYZReader\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.0.0\classes.jar"
         jumboMode="false"
         revision="23.0.0"
@@ -98,6 +84,13 @@
         revision="23.0.0"
         sha1="15b669fd484d82539a354ccd1f2a08737474e95e">
         <dex dex="D:\Github\XYZReader\XYZReader\build\intermediates\pre-dexed\debug\classes-bdf7bf2009788cbc66c9b4ddb5ed070d0e673d65.jar" />
+    </item>
+    <item
+        jar="C:\Users\Guanqing\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\1.5.4\7b7c9e5a6a0d69a1571968805dc1d1f19b57da26\okhttp-1.5.4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="7b7c9e5a6a0d69a1571968805dc1d1f19b57da26">
+        <dex dex="D:\Github\XYZReader\XYZReader\build\intermediates\pre-dexed\debug\okhttp-1.5.4-975093d2976a9562b8ea25b21bf0412195e87464.jar" />
     </item>
 
 </items>
