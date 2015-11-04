@@ -281,7 +281,7 @@
     <dimen name="detail_body_bottom_margin">88dp</dimen>
     <!-- From: file:/D:/Github/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="detail_body_text_size">22sp</dimen>
+    <dimen name="detail_body_text_size">16sp</dimen>
     <!-- From: file:/D:/Github/XYZReader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <dimen name="detail_body_top_margin">16dp</dimen>
