@@ -133,7 +133,7 @@ public class ArticleDetailFragment extends Fragment implements
             public void onClick(View view) {
                 startActivity(Intent.createChooser(ShareCompat.IntentBuilder.from(getActivity())
                         .setType("text/plain")
-                        .setText("Some sample text")
+                        .setText(mCursor.getString(ArticleLoader.Query.TITLE) + " -- from XYZReader")
                         .getIntent(), getString(R.string.action_share)));
             }
         });
@@ -201,7 +201,6 @@ public class ArticleDetailFragment extends Fragment implements
                     .get(mCursor.getString(ArticleLoader.Query.PHOTO_URL), new ImageLoader.ImageListener() {
                         @Override
                         public void onResponse(ImageLoader.ImageContainer imageContainer, boolean b) {
-                            Log.e("HGQQQ", mCursor.getString(ArticleLoader.Query.PHOTO_URL));
                             Bitmap bitmap = imageContainer.getBitmap();
                             if (bitmap != null) {
                                 Palette p = Palette.generate(bitmap, 12);
@@ -212,7 +211,6 @@ public class ArticleDetailFragment extends Fragment implements
                                 updateStatusBar();
                             }
                         }
-
                         @Override
                         public void onErrorResponse(VolleyError volleyError) {
 
